@@ -1,0 +1,25 @@
+body {
+  font-family: Palatino;
+
+}
+li{
+  display: block;
+  text-align: center;
+  width: 25%;
+  border: 1px solid black;
+  background-color: blue;
+  min-width: 200px;
+  max-width: 200px;
+  border-radius: 30px;
+  margin: 0px 20px 0px 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+button {
+  margin: 10px;
+}
